@@ -25,7 +25,7 @@ public class AdocaoRequest {
     @NotNull
     @Min(10)
     @Max(100)
-    private BigDecimal amount;
+    private BigDecimal ammount;
 
     @NotNull
     @Positive
@@ -40,12 +40,12 @@ public class AdocaoRequest {
         this.email = email;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getAmmount() {
+        return ammount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setAmmount(BigDecimal ammount) {
+        this.ammount = ammount;
     }
 
     public Long getPetId() {

@@ -22,8 +22,8 @@ public class AdotapetApplication implements CommandLineRunner {
 		var pet = new Pet();
 
 		pet.setName("Golias");
-		pet.setDescription("História de mais");
-		pet.setImageUrl("https://www.patasdacasa.com.br/noticia/faro-do-cachorro-veja-as-racas-de-porte-pequeno-que-nasceram-para-serem-cacadores_a3441/1");
+		pet.setDescription("História do golias");
+		pet.setImageUrl("https://super.abril.com.br/wp-content/uploads/2018/05/filhotes-de-cachorro-alcanc3a7am-o-c3a1pice-de-fofura-com-8-semanas1.png?quality=90&strip=info&resize=680,453");
 
 		petRepository.save(pet);
 	}

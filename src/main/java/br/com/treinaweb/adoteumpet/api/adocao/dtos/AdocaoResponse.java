@@ -10,7 +10,7 @@ public class AdocaoResponse {
 
     private String email;
 
-    private BigDecimal amount;
+    private BigDecimal ammount;
 
     private PetResponse pet;
 
@@ -30,12 +30,12 @@ public class AdocaoResponse {
         this.email = email;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getAmmount() {
+        return ammount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setAmmount(BigDecimal ammount) {
+        this.ammount = ammount;
     }
 
     public PetResponse getPet() {

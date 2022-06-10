@@ -20,7 +20,7 @@ public class AdocaoMapper {
     public Adocao toModel(AdocaoRequest adocaoRequest) {
         var adocao = new Adocao();
         adocao.setEmail(adocaoRequest.getEmail());
-        adocao.setAmount(adocaoRequest.getAmount());
+        adocao.setAmmount(adocaoRequest.getAmmount());
 
         adocao.setPet(petRepository.findByIdOrElseThrow(adocaoRequest.getPetId()));
 
@@ -32,7 +32,7 @@ public class AdocaoMapper {
 
         adocaoResponse.setId(adocao.getId());
         adocaoResponse.setEmail(adocao.getEmail());
-        adocaoResponse.setAmount(adocao.getAmount());
+        adocaoResponse.setAmmount(adocao.getAmmount());
         adocaoResponse.setPet(petMapper.toResponse(adocao.getPet()));
 
         return adocaoResponse;

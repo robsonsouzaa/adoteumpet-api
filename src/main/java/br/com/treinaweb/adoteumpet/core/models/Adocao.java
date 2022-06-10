@@ -16,7 +16,7 @@ public class Adocao {
     private Long id;
 
     @Column(nullable = false)
-    private BigDecimal amount;
+    private BigDecimal ammount;
 
     @Column(nullable = false)
     private String email;
@@ -32,12 +32,12 @@ public class Adocao {
         this.id = id;
     }
 
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getAmmount() {
+        return ammount;
     }
 
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setAmmount(BigDecimal ammount) {
+        this.ammount = ammount;
     }
 
     public String getEmail() {
